@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Welcome to My Website</title>
+ </head>
+ <body>
+  <nav>
+  <ul>
+   <li><a href="index.html" style="font-size:46px;">Home</a></li>
+   <li><a href="films.html">Films</a></li>
+   <li><a href="books.html">Books</a></li>
+   <li><a href="musics.html">Musics</a></li>
+   <li><a href="usefullinks.html">Useful Links</a></li>
+   <li><a href="contactme.html">Contact Me</a></li>
+   <li><a href="register.html">Register</a></li>
+   
+    
+  </ul>
+  </nav>
+  <img src="welc.png" width="785" height="381">
+  <form action="test.php" method="post">
+   <fieldset>
+    <legend>Login</legend>
+    <label for="username"> Username: </label>
+    <input type="text" name="name" id="username"> <br>
+    <label for="thePassword"> Password: </label>
+    <input type="password" name="userpassword"> <br>
+   </fieldset> <br>
+   <script>
+     function clickAlert() {
+    alert("Login temporarily unavailable.");
+     }
+    </script>
+
+    <input type="button" onclick="clickAlert()" value="Login">
+  </form>
+  <h1 style="font-size:45px" "font-style:bold;"> About Me </h1>
+  <h2 style="font-style:italic;"> If you want to send anything, you can <a href="contactme.html">contact me</a>. </h2>
+ </body>
+</html>

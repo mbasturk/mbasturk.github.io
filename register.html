@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Register</title>
+ </head>
+ <body>
+  <nav>
+   <ul>
+   <li><a href="index.html">Home</a></li>
+   <li><a href="films.html">Films</a></li>
+   <li><a href="books.html">Books</a></li>
+   <li><a href="musics.html">Musics</a></li>
+   <li><a href="usefullinks.html">Useful Links</a></li>
+   <li><a href="contactme.html">Contact Me</a></li>
+   <li><a href="register.html" style="font-size:46px;">Register</a></li>
+   </ul>
+  </nav>
+  <form method="post">
+   <fieldset>
+    <legend>Contact</legend>
+    <label for="theName"> Name and Surname: </label>
+    <input type="text" name="name" id="theName"> <br>
+	<label for="theDate"> Day of Birth: </label>
+    <input type="date" name="bdate" id="theDate"> <br>
+    <label for="theEmail"> Email: </label>
+    <input type="email" name="email" id="theEmail"> <br>
+	<label for="thePassword"> Password: </label>
+    <input type="password" name="userpassword"> <br>
+	<p>Gender</p>
+	<select name="Gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    </select> <br>
+	<textarea rows="9" cols="30" name="message" >About me</textarea>
+	<p>Upload your photo</p>
+	<input type="file" name="photo">
+	<p>Select your team</p>
+	<input type="checkbox" name="galatasaray" value="galatasaray">Galatasaray <br>
+	<input type="checkbox" name="fenerbahce" value="fenerbahce">Fenerbahce <br>
+	<input type="checkbox" name="besiktas" value="besiktas">Besiktas <br>
+	<input type="checkbox" name="other" value="other">Other <br>
+   </fieldset> <br>
+    <script>
+     function clickAlert() {
+    alert("Thank you for registration.");
+     }
+    </script>
+
+    <input type="button" onclick="clickAlert()" value="Send">
+	<button type="reset" value="Reset">Reset</button>
+  </form>
+  
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Contact Me</title>
+ </head>
+ <body>
+  <nav>
+   <ul>
+   <li><a href="index.html">Home</a></li>
+   <li><a href="films.html">Films</a></li>
+   <li><a href="books.html">Books</a></li>
+   <li><a href="musics.html">Musics</a></li>
+   <li><a href="usefullinks.html">Useful Links</a></li>
+   <li><a href="contactme.html" style="font-size:46px;">Contact Me</a></li>
+   <li><a href="register.html">Register</a></li>
+   </ul>
+  </nav>
+  <form method="post">
+   <fieldset>
+    <legend>Contact</legend>
+    <label for="theName"> Name and Surname: </label>
+    <input type="text" name="name" id="theName"> <br>
+    <label for="theEmail"> Email: </label>
+    <input type="email" name="email" id="theEmail"> <br>
+	<label for="theNumber">Telephone:</label>
+    <input type="tel" name="tel" maxlength="11"> <br>
+	<label for="theIssue"> Issue: </label>
+    <input type="text" name="issue" id="theIssue"> <br>
+	<textarea rows="9" cols="60" name="message" >Please enter your message here.</textarea>
+   </fieldset> <br>
+    <script>
+     function clickAlert() {
+    alert("Your message is sent.");
+     }
+    </script>
+
+    <input type="button" onclick="clickAlert()" value="Send">
+  </form>
+  <h1> OR Contact Me with;</h1>
+  <a href="mailto:basturk.mb@gmail.com"><img src="gmail.png" width="50" height="50"></a>
+  <a href="index.html"> <img src="home.png" width="50" height="50"> </a>
+  <a href="https://www.facebook.com/mbasturk.cfh"> <img src="faceb.jpg" width="50" height="50"> </a>
+  
+  
+ </body>
+</html>
