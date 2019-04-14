@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
  <head>
+  
   <title>Welcome to My Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="index.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  </head>
  <body>
+  <center>
   <nav>
-  <ul>
-   <li><a href="index.html" style="font-size:46px;">Home</a></li>
+  <ul id="mainMenu">
+   <li><a href="index.html" style="font-weight:bolder;">Home</a></li>
    <li><a href="films.html">Films</a></li>
    <li><a href="books.html">Books</a></li>
    <li><a href="musics.html">Musics</a></li>
@@ -16,25 +21,27 @@
    
     
   </ul>
-  </nav>
-  <img src="welc.png" width="785" height="381">
+  </nav></center>
+  <center><img src="welc.png" width="785" height="381"></center>
   <form action="test.php" method="post">
-   <fieldset>
+   <center><fieldset>
     <legend>Login</legend>
     <label for="username"> Username: </label>
     <input type="text" name="name" id="username"> <br>
     <label for="thePassword"> Password: </label>
     <input type="password" name="userpassword"> <br>
-   </fieldset> <br>
+   </fieldset></center> <br>
    <script>
      function clickAlert() {
     alert("Login temporarily unavailable.");
      }
     </script>
 
-    <input type="button" onclick="clickAlert()" value="Login">
+    <center><input type="button" onclick="clickAlert()" value="Login"></center>
   </form>
-  <h1 style="font-size:45px" "font-style:bold;"> About Me </h1>
-  <h2 style="font-style:italic;"> If you want to send anything, you can <a href="contactme.html">contact me</a>. </h2>
+  <center>
+  <h1 style="font-size:20px" "font-style:bold;"> About Me; </h1>
+  <h2 style="font-style:italic; font-size:15px;" > If you want to send anything, you can <a href="contactme.html">contact me</a>. </h2>
+  </center>
  </body>
 </html>
