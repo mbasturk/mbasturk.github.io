@@ -1,0 +1,73 @@
+  body {
+	  background-color: silver;
+  }
+  
+  ul {
+	  width: 100%;
+   display: table;
+   text-align: center;
+  }
+  
+  #mainMenu li {
+	  display: inline-block;
+      float: none;
+	  width:120px;
+	  margin-left:2px;
+	  border:1px solid #000;
+  }
+  
+  #mainMenu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:#fff;
+	color:#009;
+}
+
+  #mainMenu a:hover {
+	background-color:#009;
+	color:#fff;
+}
+
+  #dv img {
+	   display:block;
+	   margin: 0 auto;
+   }
+   
+  #orcon {
+		font-size:14px;
+	}
+   
+  .contactlink {
+		height:40px;
+		width:40px;
+	}
+  #registerform {
+	  display:inline-block;
+  }
+   
+   @media screen and (max-width: 480px) {
+    img {
+         width: 400px;
+    }
+	#orcon {
+		font-size:14px;
+	}
+	.contactlink {
+		height:40px;
+		width:40px;
+	}
+   }
+   
+   @media screen and (max-width: 690px) {
+    img {
+         width: 500px;
+    }
+	#orcon {
+		font-size:14px;
+	}
+	.contactlink {
+		height:40px;
+		width:40px;
+	}
+   }
